@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Teacher extends Admin {
     private int numberOfStudents, marksOfStudent;
     private String presentOrAbsent;
+    private int location;
 
 
     Scanner scanner = new Scanner(System.in);
